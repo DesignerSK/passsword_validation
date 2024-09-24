@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Password</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="validations-box">
+            <div class="password-laenge">
+                <div class="tick-box">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <span>Passwortlänge</span>
+            </div>
+            <div class="lowercase">
+                <div class="tick-box">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <span>Kleine Buchstaben</span>
+            </div>
+            <div class="uppercase">
+                <div class="tick-box">
+                    <i class="fa-solid fa-check"></i> 
+                </div>
+                <span>Großbuchstaben</span>
+            </div>
+            <div class="nummer">
+                <div class="tick-box">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <span>Nummer</span>
+            </div>
+            <div class="sonder-zeichen">
+                <div class="tick-box">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <span>Sonderzeichen</span>
+            </div>
+        </div>
+        <div class="password">
+            <input type="password" id="userInput" required>
+            <label for="userInput">Password</label>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-sharp fa-solid fa-eye-slash"></i>
+        </div>
+    </div>
+
+<script src="script.js"></script>    
+</body>
+</html>
